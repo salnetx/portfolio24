@@ -9,10 +9,10 @@ const data = [
       },
   
       {
-        name: 'Applink - Create your deep link',
+        name: 'CARDD - Go beyond CARDD',
         route: '/',
-        image: '/applink.png',
-        earning: '$null/mo',
+        image: '/cardd.png',
+        earning: '$1807/mo',
         banner: '/comingsoon.png',
         des: 'Watch All Streaming Platform from One Open Source Player. Coming Soon.'
       },

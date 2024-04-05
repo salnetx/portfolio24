@@ -16,16 +16,16 @@ const Layout = ({children, description, fav, xuser, weburl, summary, title, imgU
                 
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:site" content={xuser} />
-                <meta name="twitter:title" content="Xintent" />
+                <meta name="twitter:title" content={title} />
                 <meta name="twitter:description" content={description} />
                 <meta name="twitter:image" content={imgUrl} />
 
 
                 <meta property="og:type" content= "website" />
                 <meta property="og:url" content={weburl} />
-                <meta property="og:title" content="Xintent" />
+                <meta property="og:title" content={title} />
                 <meta property="og:description" content={description} />
-                <meta property="og:image" content={imgUrl} />
+                <meta property="og:image" content={imgUrl} />m
 
                 {/* <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="salnetx" data-description="Support me on Buy me a coffee!" data-message="" data-color="#ff0880" data-position="Right" data-x_margin="38" data-y_margin="38"></script>               */}
                 

@@ -6,12 +6,12 @@ const ProductCard = ({name, route, image, earning, banner})=>{
     return(
       <>
 
-        <section onClick={()=>{location.assign(route)}} class="rounded-3xl shadow">
+        <section onClick={()=>{location.assign(route)}} class="rounded-3xl border border-[#E7E7E7]">
               
                  
-                    <div class="lg:order-first">
-                      <div class="flex flex-col">
-                        <div class="p-8 rounded-3xl backdrop-blur-3xl bg-black/5 ring-1 ring-white/10">
+                    <div class="lg:order-first ">
+                      <div class="flex flex-col ">
+                        <div class="p-8 rounded-3xl backdrop-blur-3xl ring-1 ring-white/10">
                           <div class="flex justify-between">
                             <div class="flex items-center gap-3">
                             {image && (
@@ -20,7 +20,7 @@ const ProductCard = ({name, route, image, earning, banner})=>{
                                   width={45}
                                   height={45}
                                   alt="Image"
-                                  className="rounded-xl"
+                                  className="rounded-full"
                               />
                             )}
                               {/* <p class="font-semibold">
